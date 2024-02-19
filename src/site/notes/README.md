@@ -8,7 +8,7 @@
 
 - **type**: Operating System
 - **domain**: mecocoa.org
-- **repository** : [GitHub](https://github.com/dosconio/cocoachan)  @dosconio
+- **repository** : [GitHub](https://github.com/dosconio/mecocoa)  @dosconio
 - **alias**: Kasa-x86
 - **license**: BSD-3-Clause license
 
@@ -23,7 +23,7 @@
 | USYM BOOT      | FLAT A     |             |
 | Kernel         | HerELF A+C |             |
 | Shell16        | ELF C      |             |
-| Shell32 (COTL) | ELF C++    |             |
+| Shell32 | ELF C++    | (to COTLAB)            |
 |                |            |             |
 
 
