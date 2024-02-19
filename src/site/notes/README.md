@@ -8,9 +8,9 @@
 
 - **type**: Operating System
 - **domain**: mecocoa.org
+- **repository** : [GitHub](https://github.com/dosconio/cocoachan)  @dosconio
 - **alias**: Kasa-x86
 - **license**: BSD-3-Clause license
-- **by**: @dosconio
 
 
 
@@ -287,9 +287,9 @@ Segment `8*05`
 
 | Identification     | Function         | IO                          |
 | ------------------ | ---------------- | --------------------------- |
-| ELSE RotTerminal   | Terminate back   |                             |
-| 00 RotPrint        | Print String     | DS:ESI → ASCIZ string       |
-| 05 RotEchoDword    | PrintDwordCursor | Show the hexadecimal of EDX |
+| `ELSE` RotTerminal   | Terminate back   |                             |
+| `00` RotPrint        | Print String     | DS:ESI → ASCIZ string       |
+| `01` RotEchoDword    | PrintDwordCursor | Show the hexadecimal of EDX |
 | 02 R_Malloc        |                  |                             |
 | 03 R_Mfree         |                  |                             |
 | 04 R_DiskReadLBA28 |                  |                             |
@@ -300,21 +300,6 @@ Segment `8*05`
 
 ## Source Files
 
-(defaultly at least **Intel-386**)
-
-- `BOOT.a` bootstrap, which is different from the bootstrap collected in UNISYM. 
-- `Kernel.asm` 16-bit program, set up the environment and routines for 32-bit protected system. 
-- `Kernel32.asm` 
-- `Shell32.asm` console shell in protect-32 mode. This is going to combinated with *COTLAB*.
-- `hello.asm` a demonstration sub-program which will be created by `Shell32.asm` .
-
-
-
-
-
-
-
-
-
+(default, at least **Intel-386**)
 
 
