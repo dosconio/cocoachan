@@ -3,8 +3,7 @@
 ---
 
 
-
-# Mecocoa
+# Mecocoa ![LOGO](/img/user/rsource/logo/MCCA20240501.png) 
 
 - **type**: Operating System
 - **domain**: [mecocoa.org](http://mecocoa.org/) 
@@ -18,13 +17,13 @@
 
 A module can exist as multi-language versions, like `.h&.inc`, or `.c&.cpp&.rs`
 
-| Program        | Format     | Description |
-| -------------- | ---------- | ----------- |
-| USYM BOOT      | FLAT A     |             |
-| Kernel         | ELF A+C |             |
-| Shell16        | ELF C      |             |
-| Shell32 | ELF C++    | (to COTLAB)            |
-|                |            |             |
+| Program | Format | Environment | Description |
+| ---- | ---- | ---- | ---- |
+| USYM BOOT | FLAT A | Real-16 |  |
+| Kernel | ELF A+C | Real16->Flap32 |  |
+| Shell16 | ELF C | Real-16 |  |
+| Shell32 | ELF C++ | Flap-32 | (to COTLAB) |
+|  |  |  |  |
 
 
 
